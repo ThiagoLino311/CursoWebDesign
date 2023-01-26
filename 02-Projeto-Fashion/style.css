@@ -1,0 +1,109 @@
+#corpo{
+    width: 80%;
+    margin: 50px auto;
+    font-family: Tahoma, Arial, sans-serif;
+}
+#cabeçalho nav{
+    background-color: #162028;
+    position: relative;
+}
+#logo{
+    margin: 5px 50px ;
+}
+#cabeçalho ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+#cabeçalho li{
+    display: inline-block;
+    margin: 15px 25px 0 0;
+}
+#cabeçalho a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ccc;
+    transition: color 0.5s linear;
+}
+#cabeçalho a:hover{
+    color: #027399;
+}
+#cabeçalho-img-principal{
+    display: inline-block;
+    width: 100%;
+}
+#principal{
+    text-align: center;
+    width: 90%;
+    margin: 50px auto;
+}
+#principal h1{
+    font-size: 30px;
+}
+#principal p{
+    line-height: 2;
+}
+#cards{
+    margin: 50px 0;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+.card img{
+    width: 100%;
+}
+.card h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 5px;
+    color: rgb(58, 58, 58);
+}
+.card p{
+    font-size: 13px;
+    margin: 0;
+    color: rgb(58, 58, 58);
+}
+#banner{
+    background-image: url("imagens/bg_detalhe.png");
+    background-color: #003d52;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 100px;
+}
+#banner h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+#banner p{
+    width: 60%;
+    color: white;
+    line-height: 1.5;
+}
+#complemento address{
+    text-align: center;
+    text-transform: uppercase;
+    color: #003d52;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    margin: 50px;
+}
+#rodapé{
+    text-align: center;
+    color: #027399;
+    background-color: #003d52;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
